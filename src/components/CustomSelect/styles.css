@@ -1,0 +1,38 @@
+.custom-select {
+    width: 100%;
+    max-width: 150px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 11px 16px;
+    min-height: 48px;
+    color: var(--grey-50);
+    background-color: var(--grey-1);
+    border-radius: 8px;
+    border: none;
+}
+
+.custom-select::selection
+
+.custom-select::placeholder {
+    color: var(--grey-4);
+}
+
+.custom-select:focus {
+    color: var(--grey-4);
+    outline: 2px solid var(--grey-4);
+}
+
+.option {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: var(--grey-1);
+}
+
+.option:hover {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: var(--grey-2);
+}

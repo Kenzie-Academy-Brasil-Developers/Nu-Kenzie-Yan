@@ -1,0 +1,33 @@
+.value-input {
+    width: 100%;
+    min-width: 80px;
+    max-width: 128px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 11px 16px;
+    color: var(--grey-50);
+    background-color: var(--grey-1);
+    border-radius: 8px;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.value-input::placeholder {
+    float: right;
+    color: var(--grey-50);
+}
+
+.value-input:focus {
+    color: var(--grey-4);
+    outline: 2px solid var(--grey-4);
+}
+
+.value-input:focus::placeholder {
+    color: var(--grey-4);
+}

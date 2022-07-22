@@ -1,0 +1,21 @@
+.button-small {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.1px;
+    background-color: var(--grey-2);
+    color: var(--grey-3);
+    padding: 10.5px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-small:hover {
+    color: var(--grey-1);
+    background-color: var(--grey-4);
+}
+
+.button-small--selected {
+    color: var(--white);
+    background-color: var(--primary-color);
+}

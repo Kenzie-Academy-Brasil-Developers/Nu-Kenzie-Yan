@@ -1,0 +1,33 @@
+.body--login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: var(--grey-4);
+    min-height: 100vh;
+    animation: pageTransition 0.3s;
+}
+
+.logo {
+    width: 122px;
+    height: 20px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 374px;
+    gap: 28px;
+    padding-left: 20px;
+}
+
+.banner {
+    display: none;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .banner {
+        display: block;
+    }
+}
